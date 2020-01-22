@@ -59,10 +59,9 @@
         </tfoot>
     </table>
     <script src="js/app/models/Negociacao.js"></script>
+    <script src="js/app/controllers/NegociacaoController.js"></script>
     <script>
-        var teste1 =  new Negociacao(new Date, 5,6);
-        var volume = teste1.obtemVolume();
-        console.log(volume);
+        let negociacaoController = new NegociacaoController();
     </script>
 </body>
 </html>
